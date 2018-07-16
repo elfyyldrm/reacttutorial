@@ -1,0 +1,26 @@
+
+
+        .flex-container {
+            display: flex;
+            background-color: cadetblue;
+            justify-content: center; /* center items vertically, in this case */
+            align-items: center;
+        }
+
+        .flex-container > div {
+            background-color: #DCDCDC;
+            width: 150px;
+            height: 100px;
+            margin: 50px;
+            text-align: center;
+            line-height: 20px;
+            font-size: 20px;
+            font-family:"Times New Roman";
+            padding:1px;
+            border-style:outset;
+            border-color:black;
+
+        }
+
+
+
