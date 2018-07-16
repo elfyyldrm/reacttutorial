@@ -20,11 +20,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="baslik.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="baslik.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/baslik.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="272">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -55,7 +55,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="291">
@@ -105,9 +105,9 @@
         <option value="$PROJECT_DIR$/src/sehirler.js" />
         <option value="$PROJECT_DIR$/src/Sehirler.js" />
         <option value="$PROJECT_DIR$/src/kutucuk.css" />
-        <option value="$PROJECT_DIR$/src/baslik.css" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/SehirlerListesi.js" />
+        <option value="$PROJECT_DIR$/src/baslik.css" />
       </list>
     </option>
   </component>
@@ -125,7 +125,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1260" />
@@ -247,12 +247,12 @@
       <workItem from="1530541621242" duration="60000" />
       <workItem from="1531303666485" duration="61208000" />
       <workItem from="1531498422184" duration="54000" />
-      <workItem from="1531735761749" duration="2372000" />
+      <workItem from="1531735761749" duration="2996000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64367000" />
+    <option name="totallyTimeSpent" value="64991000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="744" extended-state="6" />
@@ -542,13 +542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/baslik.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/il-ilce.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -593,6 +586,13 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baslik.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
