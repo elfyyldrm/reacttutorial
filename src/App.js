@@ -28,6 +28,7 @@ class App extends Component {
                 </div>
                 <hr/>
                 <h2>İl/İlçe Oy Dağılımı</h2>
+                <h3 id="baslik1"></h3>
                 <SehirlerListesi/>
                 <p/>
 

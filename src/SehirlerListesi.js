@@ -2,7 +2,8 @@
 import React, {Component} from 'react';
 import './il-ilce.css';
 import './kutucuk.css';
-
+import App from './App';
+let baslik1;
 const ank= ["Seçiniz","Altındağ", "Ayaş", " Bala", "Beypazarı", "Çamlıdere", "Çankaya", "Çubuk", "Etimesgut", "Haymana", "Kalecik", "Keçiören", "Kızılcahamam", "Mamak", "Nallıhan", "Polatlı", "Şereflikoçhisar", "Sincan", "Yenimahalle"];
 const ist = ["Seçiniz","Adalar", "Bağcılar", "Bahçelievler", "Bakırköy", "Beşiktaş", "Beykoz", "Beyoğlu", "Büyükçekmece", "Çatalca", "Eminönü", "Esenler", "Eyüp", "Fatih", "Gaziosmanpaşa", "Güngören", "Kadıköy", "Kağıthane", "Kartal", "Küçükçekmece", "Maltepe", "Pendik", "Sarıyer", "Silivri", "Şile", "Şişli", "Sultanbeyli", "Tuzla", "Ümraniye", "Üsküdar", "Zeytinburnu"];
 const izmr 			= ["Seçiniz","Aliağa", "Balçova", "Bayındır", "Bergama", "Beydağ", "Bornova", "Buca", "Çeşme", "Dikili", "Foça", "Güzelbahçe", "Karaburun", "Karşıyaka", "Kemalpaşa", "Kınık", "Kiraz", "Konak", "Menderes","Menemen", "Narlıdere", "Ödemiş", "Seferihisar", "Selçuk", "Tire", "Torbalı", "Urla"];
@@ -122,10 +123,10 @@ class SehirlerListesi extends Component {
         const selected_ilce=document.onChangeIlce;
         let b;
         if (selected_il === "Ankara"){
+            baslik1="Ankara Geneli";
             b=ankra;
             for(i = 0; i<ank.length; i++)
                 select_ilce.options[select_ilce.options.length] = new Option(ank[i]);
-
 
         }
         if (selected_il === "İstanbul"){
@@ -458,6 +459,7 @@ class SehirlerListesi extends Component {
             document.getElementById("oy1").innerHTML = b[0];
             document.getElementById("oy2").innerHTML = b[1];
             document.getElementById("oy3").innerHTML = b[2];
+            document.getElementById("baslik1").innerHTML=baslik1;
 
     }
 
