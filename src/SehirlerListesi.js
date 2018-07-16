@@ -131,26 +131,31 @@ class SehirlerListesi extends Component {
         }
         if (selected_il === "İstanbul"){
             b=stnbl;
+            baslik1="İstanbul Geneli";
             for(i = 0; i<ist.length; i++)
                 select_ilce.options[select_ilce.options.length] = new Option(ist[i]);
 
         }
         if (selected_il === "İzmir"){
             b=zmr;
+            baslik1="İzmir Geneli";
             for(i = 0; i<izmr.length; i++)
                 select_ilce.options[select_ilce.options.length] = new Option(izmr[i]);
         }
         if (selected_il === "Adana"){
             b=["%46.44","%39.26","%14.29"];
+            baslik1="Adana Geneli";
             for(i = 0; i<adna.length; i++)
                 select_ilce.options[select_ilce.options.length] = new Option(adna[i]);
         }
         if (selected_il === "Adıyaman"){
             b=["%64.25","%18.94","%16.81"];
+            baslik1="Adıyaman Geneli";
             for(i = 0; i<adymn.length; i++)
                 select_ilce.options[select_ilce.options.length] = new Option(adymn[i]);
         }
         if (selected_il === "Afyon"){
+            baslik1="Afyon Geneli";
             b=["%69.34","%28.93","%1.73"];
             for(i = 0; i<afyn.length; i++)
                 select_ilce.options[select_ilce.options.length] = new Option(afyn[i]);
@@ -471,22 +476,28 @@ class SehirlerListesi extends Component {
 
         if(event.target.value==="Altındağ"){
             a=altndg;
+            baslik1="Ankara-Altındağ";
         }
         if(event.target.value==="Ayaş"){
             a=ayas;
+            baslik1="Ankara-Ayaş";
         }
         if(event.target.value==="Beşiktaş"){
             a=besiktas;
+            baslik1="İstanbul-Beşiktaş";
         }
         if(event.target.value==="Adalar"){
             a=adalar;
+            baslik1="İstanbul-Adalar";
         }
         if(event.target.value==="Aliağa"){
             a=["%38.34","%47.41","%14.25"]
+            baslik1="İzmir-Aliağa";
         }
         document.getElementById("oy1").innerHTML= a[0];
         document.getElementById("oy2").innerHTML= a[1];
         document.getElementById("oy3").innerHTML=a[2];
+        document.getElementById("baslik1").innerHTML = baslik1;
     }
 
     render() {
